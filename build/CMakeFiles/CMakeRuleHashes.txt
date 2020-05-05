@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-778b8462e1e898b804dba836ad9cf6a6 src/chat.pb.cc

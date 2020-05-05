@@ -1,1 +1,0 @@
-g++   -std=c++11 -g -O0 -Wall   CMakeFiles/server.dir/server.cpp.o CMakeFiles/server.dir/ChatEvent.cpp.o CMakeFiles/server.dir/ChatServer.cpp.o CMakeFiles/server.dir/ChatMsg.cpp.o CMakeFiles/server.dir/CommuManager.cpp.o CMakeFiles/server.dir/chat.pb.cc.o  -o ../bin/server -rdynamic ../lion/liblion.a -lprotobuf -lpthread 
