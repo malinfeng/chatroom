@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package chat;
+
+enum msg_type
+{
+    welcome = 0;
+    login = 1;
+    list_friend = 2;  
+    list_record = 3;
+    add_friend = 4;
+    delete_friend = 5;
+    chat_broadcast = 6; 
+    chat_private = 7;  
+}
+
+enum msg_req
+{
+    request = 0;
+    response = 1;
+}
+
+
+message ChatMsgHead{
+    msg_type type = 1;
+
+    msg_req req = 2;
+
+    uint64 time = 3;
+    uint32 msg_len = 4;
+}
+
+message LoginReq{
+    uint32 uid = 1;
+    string uname = 2;
+}
+
+message LoginRsp{
+    uint32 status = 1;
+}
