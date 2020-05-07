@@ -20,6 +20,7 @@ namespace chatroom
         chat::ChatMsgHead& getHead() {return _head; }
         std::string getBodyStr();
 
+        bool hasBody(){return _hasbody;}
     private:
         chat::ChatMsgHead _head;
         //使用str方式存body

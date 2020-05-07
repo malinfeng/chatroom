@@ -84,7 +84,7 @@ int TcpConnection::readFd()
 		{
 			if (errno == EINTR)
 				continue;
-			else if (errno == EAGAIN)
+			else if (errno == EAGAIN)//表示读完了
 			{
 				return readSum;
 			}

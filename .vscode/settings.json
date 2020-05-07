@@ -47,6 +47,7 @@
         "cstring": "cpp",
         "unordered_set": "cpp",
         "string": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "cerrno": "cpp"
     }
 }
